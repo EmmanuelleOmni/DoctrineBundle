@@ -72,7 +72,7 @@ Full example:
 
 Starting with doctrine/orm 2.5 and Doctrine bundle 1.5.2, instead of registering
 the entity listener on the entity, you can declare all options from the service
-definition:
+definition. (This configuration is not valuable from doctrine/doctrine-bundle 2.6 version and Symfony 5.4, you'll have to use the entity annotation for listeners) :
 
 .. configuration-block::
 
